@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose's Quiet & Professional Lawn Care</title>
+    <style>
+        :root { 
+            --primary-green: #2e7d32; 
+            --light-green: #e8f5e9; 
+            --dark-slate: #37474f; 
+            --white: #ffffff; 
+            --accent-orange: #ff5722;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: var(--dark-slate); 
+            line-height: 1.6; 
+            background-color: #f9f9f9;
+        }
+        header { 
+            background-color: var(--primary-green); 
+            color: var(--white); 
+            padding: 2.5rem 1rem; 
+            text-align: center; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+            padding: 20px; 
+        }
+        .hero { 
+            background: var(--light-green); 
+            padding: 30px; 
+            text-align: center; 
+            border-radius: 12px; 
+            margin-bottom: 30px; 
+            border: 1px solid #c8e6c9; 
+        }
+        .bilingual-badge { 
+            display: inline-block; 
+            background: var(--white); 
+            color: var(--primary-green); 
+            padding: 5px 20px; 
+            border-radius: 20px; 
+            font-weight: bold; 
+            margin-bottom: 15px; 
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .service-card { 
+            background: white;
+            border: 1px solid #ddd; 
+            padding: 25px; 
+            border-radius: 12px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .service-card ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        .service-card li {
+            margin: 10px 0;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0; 
+            background: white; 
+        }
+        th, td { 
+            border: 1px solid #eee; 
+            padding: 15px; 
+            text-align: left; 
+        }
+        th { 
+            background-color: var(--primary-green); 
+            color: white; 
+        }
+        .booking-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .booking-section h2 {
+            color: var(--primary-green);
+            text-align: center;
+            margin-top: 0;
+        }
+        .booking-section p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container iframe {
+            width: 100%;
+            min-height: 800px;
+            border: none;
+            border-radius: 8px;
+        }
+        .contact-info {
+            background: var(--light-green);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 5px solid var(--primary-green);
+        }
+        .contact-info h3 {
+            color: var(--primary-green);
+            margin-top: 0;
+        }
+        .contact-info p {
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+        .contact-info a {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 600px) {
+            .form-container iframe {
+                min-height: 600px;
+            }
+            header {
+                padding: 1.5rem 1rem;
+            }
+            .service-card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jose's Quiet & Professional Lawn Care</h1>
+        <p>Premium lawn care services with attention to detail</p>
+    </header>
+    
+    <div class="container">
+        <div class="hero">
+            <div class="bilingual-badge">🌐 Bilingual Service - English & Español</div>
+            <h2>Welcome to Your Local Lawn Care Expert</h2>
+            <p>Quality service, professional results, and customer satisfaction guaranteed.</p>
+        </div>
+        
+        <div class="service-card">
+            <h3>🌿 Our Services</h3>
+            <p>Jose offers a comprehensive range of lawn care services tailored to your needs:</p>
+            <ul>
+                <li><strong>Quiet Mowing</strong> - Eco-friendly electric mowers (75% quieter than gas)</li>
+                <li><strong>Precision Edging</strong> - Perfect driveways and sidewalks</li>
+                <li><strong>Professional Service</strong> - Reliable and punctual</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3>💰 Pricing</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Yard Size</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Small (Townhouse)</td>
+                        <td>$55</td>
+                    </tr>
+                    <tr>
+                        <td>Medium (Suburban)</td>
+                        <td>$85</td>
+                    </tr>
+                    <tr>
+                        <td>Large (Corner Lot)</td>
+                        <td>$110+</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><small>*Final price confirmed upon arrival</small></p>
+        </div>
+
+        <!-- BOOKING SECTION - Google Form -->
+        <div class="booking-section">
+            <h2>📅 Book Your Appointment</h2>
+            <p>Fill out the form below and Jose will contact you to confirm your appointment!</p>
+            <div class="form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyuga6AMKiMah2ah0AkeNQev42WUspY22swsACFpUCVDhvmw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+            <h3>📞 Direct Contact</h3>
+            <p><strong>Susanna Cruz (Susie)</strong><br>English & Spanish<br><a href="tel:+1-619-852-2632">📱 619-852-2632</a></p>
+            <hr style="border: none; border-top: 1px solid #c8e6c9; margin: 15px 0;">
+            <p><strong>Jose</strong><br>Spanish (Fluent) | Limited English<br><a href="tel:+1-619-410-1138">📱 619-410-1138</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Jose's Quiet & Professional Lawn Care</p>
+        <p>Serving the community with eco-friendly lawn care solutions</p>
+    </footer>
+</body>
+</html>
