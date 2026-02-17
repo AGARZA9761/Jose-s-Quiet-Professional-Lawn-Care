@@ -14,9 +14,9 @@ A bilingual (English/Spanish) website for a professional lawn care service featu
 
 1. Clone this repository
 2. Edit `index.html` to add your contact information:
-   - Replace `[INSERT MOM'S NAME]` with your wife's name
-   - Replace `[INSERT PHONE]` with your phone number
-   - Replace `[INSERT DAD'S PHONE]` with Jose's phone number
+   - Replace `Susanna Cruz aka Susie` with your wife's name
+   - Replace `619.852.2632` with your phone number
+   - Replace `619.931.5131` with Jose's phone number
 
 3. Deploy to GitHub Pages or your preferred hosting
 
